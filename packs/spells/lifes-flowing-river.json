@@ -33,6 +33,13 @@
             "sustained": false,
             "value": "1 minute"
         },
+        "heightening": {
+            "damage": {
+                "FIkUEzSt5nqmYDL5": "1d6"
+            },
+            "interval": 1,
+            "type": "interval"
+        },
         "level": {
             "value": 4
         },
