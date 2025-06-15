@@ -73,9 +73,10 @@ import type { ActorSourcePF2e } from "./data/index.ts";
 import { Immunity, Resistance, Weakness } from "./data/iwr.ts";
 import { ActorSizePF2e } from "./data/size.ts";
 import {
-    applyActorUpdate,
+    applyActorGroupUpdate,
     auraAffectsActor,
     checkAreaEffects,
+    createActorGroupUpdate,
     createEncounterRollOptions,
     createEnvironmentRollOptions,
     isReallyPC,
@@ -424,6 +425,20 @@ class ActorPF2e<TParent extends TokenDocumentPF2e | null = TokenDocumentPF2e | n
         return 0;
     }
 
+    /**
+     * @inheritdoc
+     * Overriden to also clone dependent tokens if keepId is true
+     */
+    override clone(data?: Record<string, unknown>, context?: DocumentCloneContext): this {
+        const clone = super.clone(data, context);
+        if (context?.keepId) {
+            for (const [key, value] of this._dependentTokens.entries()) {
+                clone._dependentTokens.set(key, value);
+            }
+        }
+        return clone;
+    }
+
     /** Create a clone of this actor to recalculate its statistics with ephemeral effects and roll options included */
     getContextualClone(rollOptions: string[], ephemeralEffects: (ConditionSource | EffectSource)[] = []): this {
         const rollOptionsAll = rollOptions.reduce(
@@ -524,11 +539,9 @@ class ActorPF2e<TParent extends TokenDocumentPF2e | null = TokenDocumentPF2e | n
     }
 
     /** Recharges all abilities after some time has elapsed. */
-    async recharge(options: RechargeOptions): Promise<ActorRechargeData<this>> {
-        const commitData: ActorRechargeData<this> = {
-            actorUpdates: null,
-            itemCreates: [],
-            itemUpdates: [],
+    async recharge(options: RechargeOptions): Promise<ActorRechargeData> {
+        const commitData: ActorRechargeData = {
+            ...createActorGroupUpdate(),
             affected: {
                 frequencies: false,
                 spellSlots: false,
@@ -589,7 +602,7 @@ class ActorPF2e<TParent extends TokenDocumentPF2e | null = TokenDocumentPF2e | n
 
         // Commit to the database unless commit is explicitly set to false
         if (options.commit !== false) {
-            await applyActorUpdate(this, commitData);
+            await applyActorGroupUpdate(this, commitData);
         }
 
         return commitData;

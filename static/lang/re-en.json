@@ -3656,6 +3656,9 @@
                 "UnholyWater": {
                     "Note": "Can damage only creatures with the holy trait."
                 },
+                "WalkingCauldron": {
+                    "ToggleLabel": "Walking Cauldron – Animated"
+                },
                 "WemmuthTrinket": {
                     "Description": "Creatures who fail or critically fail their Reflex saves also take @Damage[(@item.rank)[piercing]]."
                 },
@@ -5940,6 +5943,7 @@
                 "Note": {
                     "CraneStance": "Reduce the DC for High Jump and Long Jump by 5, and when you Leap, you can move an additional 5 feet horizontally or 2 feet vertically.",
                     "GorillaStance": "If you roll a success on an Athletics check to Climb, you get a critical success instead.",
+                    "ShatteringEarthStance": "All creatures other than you that are within @Template[type:emanation|distance:10]{10 feet} of the target, including the target itself, take @Damage[(@item.system.damage.dice[splash])[bludgeoning]] damage.",
                     "StokedFlameStance": "If you have access to the flashing sparks' critical specialization effect, you can take an alternate effect instead: if your critical Strike dealt damage, the target takes @Damage[1d6[persistent,fire]] damage.",
                     "WaterfowlStance": "You can deal that creature @Damage[1d6[slashing]] damage. This damage is increased to @Damage[2d6[slashing]] if the weapon has a greater striking rune and @Damage[3d6[slashing]] if it has a major striking rune.",
                     "WildWindStance": "Wind crash strikes ignore concealment and all cover."
@@ -6441,7 +6445,25 @@
                             "Title": "Familiar of Swarm's Heart"
                         }
                     },
-                    "Prompt": "Select a patron."
+                    "Prompt": "Select a patron.",
+                    "Theme":{
+                        "BabaYaga": "Baba Yaga",
+                        "ChoirPolitic": "Choir Politic",
+                        "Cobyslarni": "Cobyslarni",
+                        "DevourerOfDecay": "Devourer of Decay",
+                        "FaithsFlamekeeper": "Faith's Flamekeeper",
+                        "MosquitoWitch": "Mosquito Witch",
+                        "ParadoxOfOpposites": "Paradox of Opposites",
+                        "RippleInTheDeep": "Ripple in the Deep",
+                        "SilenceInSnow": "Silence in Snow",
+                        "SpinnerOfThreads": "Spinner of Threads",
+                        "StarlessShadow": "Starless Shadow",
+                        "TheInscribedOne": "The Inscribed One",
+                        "TheResentment": "The Resentment",
+                        "TheUnseenBroker": "The Unseen Broker",
+                        "WhisperOfWings": "Whisper of Wings",
+                        "WildingSteward": "Wilding Steward"
+                    }
                 },
                 "WildWitchsArmaments": {
                     "EldritchNails": {
@@ -6487,9 +6509,24 @@
                 }
             },
             "Wrestler": {
+                "Spinebreaker": {
+                    "Note": {
+                        "CriticalSuccess": "The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} until the end of its next turn and then is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.",
+                        "Success": "The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of its next turn."
+                    }
+                },
                 "Strangle": {
                     "FlatCheckNote": "For an action requiring speech that is also a manipulate action, like Casting a Spell with the concentrate and manipulate trait, you just roll a single DC 10 flat check, rather than an additional DC 5 flat check for being grabbed.",
                     "VerbalNote": "You must succeed at a @Check[flat|dc:10] or lose any action that requires speech."
+                },
+                "SubmissionHold": {
+                    "Note": {
+                        "CriticalSuccess": "The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} until the end of its next turn and then is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 minute.",
+                        "Success": "The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its next turn."
+                    }
+                },
+                "Suplex": {
+                    "Note": "The target lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and you immediately release your hold on the target."
                 }   
             },
             "ZephyrGuard": {
