@@ -42,6 +42,9 @@
         },
         {
             "_id": "hqbe7H8WH3gSdiV6",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.8TQiFzGf4feoHeH0"
+            },
             "folder": "T8AzYUgNIAgTJ9Iz",
             "img": "systems/pf2e/icons/spells/chilling-spray.webp",
             "name": "Chilling Spray",
@@ -133,6 +136,9 @@
         },
         {
             "_id": "fIbNZqCQO5nceoA8",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj"
+            },
             "folder": "D7UVaOiB40wTR6kv",
             "img": "icons/magic/movement/trail-streak-impact-blue.webp",
             "name": "Frostbite",

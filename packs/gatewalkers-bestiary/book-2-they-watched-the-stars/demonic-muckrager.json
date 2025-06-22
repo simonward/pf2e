@@ -280,9 +280,6 @@
         }
     ],
     "name": "Demonic Muckrager",
-    "prototypeToken": {
-        "name": "Abyssal Muckrager"
-    },
     "system": {
         "abilities": {
             "cha": {

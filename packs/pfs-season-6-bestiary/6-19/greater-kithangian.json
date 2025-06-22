@@ -180,6 +180,9 @@
         },
         {
             "_id": "oTU9Kia9zhCRhpKH",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW"
+            },
             "img": "systems/pf2e/icons/spells/paralyze.webp",
             "name": "Paralyze",
             "sort": 400000,
@@ -259,6 +262,9 @@
         },
         {
             "_id": "Ebek2HJ6He3ynxyq",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C"
+            },
             "img": "icons/creatures/mammals/ox-buffalo-horned-green.webp",
             "name": "Speak with Animals (Constant)",
             "sort": 500000,
@@ -379,6 +385,9 @@
         },
         {
             "_id": "L0ujpusfMIHUIKop",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf"
+            },
             "img": "systems/pf2e/icons/spells/command.webp",
             "name": "Command (At Will, Animals Only)",
             "sort": 700000,

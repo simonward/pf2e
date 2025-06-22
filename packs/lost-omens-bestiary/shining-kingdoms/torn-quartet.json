@@ -255,9 +255,6 @@
         }
     ],
     "name": "Torn Quartet",
-    "prototypeToken": {
-        "name": "SK Actor"
-    },
     "system": {
         "abilities": {
             "cha": {
