@@ -1,10 +1,16 @@
 {
-    "_id": "LRIYUFQ7FE9H4RWD",
+    "_id": "7EBdAHY7y06Bk4un",
     "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
-    "name": "Effect: Drain Life",
+    "name": "Effect: Drain Life (Wight Spell Sniper)",
     "system": {
+        "badge": {
+            "evaluate": true,
+            "reevaluate": null,
+            "type": "formula",
+            "value": "2d6"
+        },
         "description": {
-            "value": "<p>You gain temporary Hit Points.</p>"
+            "value": "<p>You gain 2d6 temporary Hit Points.</p>"
         },
         "duration": {
             "expiry": null,
@@ -13,17 +19,17 @@
             "value": -1
         },
         "level": {
-            "value": 1
+            "value": 7
         },
         "publication": {
-            "license": "OGL",
-            "remaster": false,
-            "title": "Pathfinder Bestiary"
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder #208: Hoof, Cinder, and Storm"
         },
         "rules": [
             {
                 "key": "TempHP",
-                "value": "@item.origin.flags.pf2e.drainLifeTempHP"
+                "value": "@item.badge.value"
             }
         ],
         "start": {
