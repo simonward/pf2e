@@ -1,5 +1,5 @@
 {
-    "_id": "wjNbuzeqoVSR0Wwm",
+    "_id": "gZ2qX5vbWg7otMVT",
     "folder": "e11qyjODJcURdkOl",
     "img": "systems/pf2e/icons/default-icons/npc.svg",
     "items": [
@@ -69,7 +69,9 @@
                 "rules": [],
                 "runes": {
                     "potency": 3,
-                    "property": [],
+                    "property": {
+                        "0": ""
+                    },
                     "striking": 2
                 },
                 "size": "grg",
@@ -124,7 +126,28 @@
                     "remaster": false,
                     "title": ""
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "domain": "damage",
+                        "key": "RollOption",
+                        "label": "PF2E.SpecificRule.TwoHanded.BastardSword",
+                        "option": "two-handed",
+                        "toggleable": true
+                    },
+                    {
+                        "key": "DamageAlteration",
+                        "mode": "upgrade",
+                        "predicate": [
+                            "two-handed"
+                        ],
+                        "property": "dice-faces",
+                        "selectors": [
+                            "{item|_id}-damage"
+                        ],
+                        "slug": "base",
+                        "value": 12
+                    }
+                ],
                 "slug": null,
                 "traits": {
                     "rarity": "common",
@@ -156,10 +179,6 @@
                 },
                 "damageRolls": {
                     "6PKmrB13EndchtXh": {
-                        "damage": "4d8",
-                        "damageType": "electricity"
-                    },
-                    "z3RoZyrnYQLqrohu": {
                         "damage": "4d8",
                         "damageType": "fire"
                     }
@@ -358,7 +377,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The Quantium golem's eyes take on a brilliant glow and it unleashes an arc of destruction dealing @Damage[10d6[fire],10d6[electricity]]{10d6 fire damage and 10d6 electricity damage} to creatures in a @Template[line|distance:120] (@Check[reflex|dc:42|basic]). The Quantium golem can't use Lambent Beam for [[/gmr 1d4 #Recharge Lambent Beam]]{1d4 rounds}.</p>"
+                    "value": "<p>The Quantium golem's eyes take on a brilliant glow and it unleashes an arc of destruction dealing @Damage[10d6[fire]|options:area-damage] damage to creatures in a @Template[line|distance:120] (@Check[reflex|dc:42|basic|options:area-effect]). The Quantium golem can't use Lambent Beam for [[/gmr 1d4 #Recharge Lambent Beam]]{1d4 rounds}.</p>"
                 },
                 "publication": {
                     "license": "OGL",
@@ -397,7 +416,39 @@
                     "remaster": false,
                     "title": ""
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "alwaysActive": true,
+                        "key": "RollOption",
+                        "option": "twin-defenders",
+                        "suboptions": [
+                            {
+                                "label": "PF2E.NPCAbility.QuantiumGolem.Type.Crimson",
+                                "value": "electricity"
+                            },
+                            {
+                                "label": "PF2E.NPCAbility.QuantiumGolem.Type.Emerald",
+                                "value": "acid"
+                            }
+                        ],
+                        "toggleable": true,
+                        "value": true
+                    },
+                    {
+                        "damageType": "{item|flags.pf2e.rulesSelections.twinDefenders}",
+                        "diceNumber": 10,
+                        "dieSize": "d6",
+                        "key": "DamageDice",
+                        "selector": "lambent-beam-inline-damage"
+                    },
+                    {
+                        "damageType": "{item|flags.pf2e.rulesSelections.twinDefenders}",
+                        "diceNumber": 4,
+                        "dieSize": "d8",
+                        "key": "DamageDice",
+                        "selector": "eye-beam-damage"
+                    }
+                ],
                 "slug": null,
                 "traits": {
                     "rarity": "common",
@@ -407,7 +458,7 @@
             "type": "action"
         }
     ],
-    "name": "Quantium Golem (Electricity)",
+    "name": "Quantium Golem",
     "system": {
         "abilities": {
             "cha": {

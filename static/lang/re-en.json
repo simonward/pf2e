@@ -1213,6 +1213,12 @@
             "RebornDevotee": {
                 "RebornDevoteeFocusedAssault": "Number of Stalks"
             },
+            "QuantiumGolem": {
+                "Type": {
+                    "Crimson": "Crimson",
+                    "Emerald": "Emerald"
+                }
+            },
             "RuneGiant": {
                 "InvokeRune": {
                     "Prompt": "Select a rune.",
@@ -2384,6 +2390,10 @@
                 "Elemental": {
                     "ElementalEvolutionLabel": "Elemental Rage Damage"
                 },
+                "FuriousFinish": {
+                    "Note": "After this Strike, your Rage immediately ends, and you are @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} until you rest for at least 10 minutes.",
+                    "Prompt": "Select the number of rounds remaining in your Rage."
+                },
                 "Giant": {
                     "Prompt": "Select an energy type for Raging Resistance."
                 },
@@ -2400,6 +2410,9 @@
                 "Ligneous": {
                     "ToggleLabel": "Wooden Rage"
                 },
+                "OversizedThrow": {
+                    "Label": "Oversized Throw"
+                },
                 "RenewedVigor": {
                     "Prompt": "Did you make an attack action this turn?"
                 },
@@ -2407,6 +2420,9 @@
                     "NegativeDamage": "Void Damage",
                     "PositiveDamage": "Vitality Damage",
                     "ToggleLabel": "Spirit Rage"
+                },
+                "SpiritsInterference": {
+                    "Note": "You must succeed at a @Check[flat|dc:5|showDC:all] or the attack misses with no effect."
                 },
                 "Superstition": {
                     "RagingResistance": {
@@ -4017,6 +4033,9 @@
                 },
                 "DoubleSlice": {
                     "SecondAttackLabel": "Double Slice Second Attack"
+                },
+                "ResoundingBravery": {
+                    "Prompt": "Against a fear effect?"
                 }
             },
             "FighterWeaponMasteryLegend": {
