@@ -476,6 +476,9 @@
         }
     ],
     "name": "The Husk of Deskari (13-14)",
+    "prototypeToken": {
+        "name": "The Husk of Deskari"
+    },
     "system": {
         "abilities": {
             "cha": {

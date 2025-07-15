@@ -34,6 +34,9 @@
         }
     ],
     "name": "Earthquake (13-14)",
+    "prototypeToken": {
+        "name": "Earthquake"
+    },
     "system": {
         "attributes": {
             "ac": {

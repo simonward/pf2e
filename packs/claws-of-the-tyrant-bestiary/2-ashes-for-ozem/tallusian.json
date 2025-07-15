@@ -45,6 +45,9 @@
         },
         {
             "_id": "Si6F9Xee6gWXAQlk",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K"
+            },
             "folder": "iDjm2cXyRAe4VZ35",
             "img": "systems/pf2e/icons/spells/tongues.webp",
             "name": "Truespeech (Constant)",
@@ -104,6 +107,9 @@
         },
         {
             "_id": "9m7ivQv3hruODV2n",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG"
+            },
             "folder": "7cyoYPoPYA01mErU",
             "img": "systems/pf2e/icons/spells/shape-stone.webp",
             "name": "Shape Stone",
@@ -168,6 +174,9 @@
         },
         {
             "_id": "h8QLgRMuhdk6PlwV",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV"
+            },
             "folder": "lPzcDrjGDFbzuF2r",
             "img": "systems/pf2e/icons/spells/humanoid-form.webp",
             "name": "Humanoid Form (At Will)",
@@ -228,6 +237,9 @@
         },
         {
             "_id": "5PfQPYjpRjVfAPkC",
+            "_stats": {
+                "compendiumSource": "Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV"
+            },
             "folder": "T8AzYUgNIAgTJ9Iz",
             "img": "icons/magic/earth/projectiles-stone-salvo-gray.webp",
             "name": "Pummeling Rubble",
@@ -470,7 +482,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The tallusian slaps their tail against the earth, creating a vibration at the precise frequency needed to shake the ground in a @Template[type:burst|distance:10] within 30 feet. The area becomes difficult terrain for 24 hours. Any creature in the area must attempt a @Check[reflex|dc:22] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of its next turn.</p>\n<p><strong>Failure</strong> The creature falls @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<p><strong>Critical Failure</strong> As failure, plus the creature takes @Damage[1d6[bludgeoning]|options:area-damage] damage.</p>"
+                    "value": "<p>The tallusian slaps their tail against the earth, creating a vibration at the precise frequency needed to shake the ground in a @Template[type:burst|distance:10] within 30 feet. The area becomes difficult terrain for 24 hours. Any creature in the area must attempt a @Check[reflex|dc:22|options:area-effect,damaging-effect,inflicts:off-guard,inflicts:prone] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] until the start of its next turn.</p>\n<p><strong>Failure</strong> The creature falls @UUID[Compendium.pf2e.conditionitems.Item.Prone].</p>\n<p><strong>Critical Failure</strong> As failure, plus the creature takes @Damage[1d6[bludgeoning]|options:area-damage] damage.</p>"
                 },
                 "publication": {
                     "license": "OGL",
