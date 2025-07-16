@@ -4,10 +4,7 @@
     "name": "Effect: Blisterwort",
     "system": {
         "badge": {
-            "labels": null,
-            "loop": false,
             "max": 3,
-            "min": null,
             "type": "counter",
             "value": 1
         },
