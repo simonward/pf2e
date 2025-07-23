@@ -1,19 +1,25 @@
 {
-    "_id": "JSruXKRV7iJv8Se0",
-    "img": "icons/creatures/magical/construct-golem-stone-blue.webp",
-    "name": "Effect: Beseech the Spirits",
+    "_id": "GXQg0rAJGgk7Kfx9",
+    "img": "icons/sundries/documents/document-symbol-eye.webp",
+    "name": "Effect: Fickle Prophecy",
     "system": {
+        "badge": {
+            "evaluate": true,
+            "reevaluate": null,
+            "type": "formula",
+            "value": "1d8+4"
+        },
         "description": {
-            "value": "<p>You gain lifesense 60 feet and all-around vision.</p>"
+            "value": "<p>You gain 1d8+4 temporary Hit Points.</p>"
         },
         "duration": {
             "expiry": "turn-start",
             "sustained": false,
-            "unit": "minutes",
-            "value": 10
+            "unit": "hours",
+            "value": 1
         },
         "level": {
-            "value": 10
+            "value": 4
         },
         "publication": {
             "license": "ORC",
@@ -22,13 +28,8 @@
         },
         "rules": [
             {
-                "key": "Sense",
-                "range": 60,
-                "selector": "lifesense"
-            },
-            {
-                "key": "GrantItem",
-                "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.All-Around Vision"
+                "key": "TempHP",
+                "value": "@item.badge.value"
             }
         ],
         "start": {

@@ -640,7 +640,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The enigmatic conspiracist recites a convoluted conspiracy theory about a creature within 30 feet, then attempts an @Check[occultism|against:will] check against the Will DC of that creature. On a success, the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the conspiracist's attacks until no longer stupefied.</p>"
+                    "value": "<p>The enigmatic conspiracist recites a convoluted conspiracy theory about a creature within 30 feet, then attempts an @Check[occultism|against:will|options:inflicts:stupefied] check against the Will DC of that creature. On a success, the target is @UUID[Compendium.pf2e.conditionitems.Item.Stupefied]{Stupefied 1} for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] against the conspiracist's attacks until no longer stupefied.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Unbelievable Connection]</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -761,7 +761,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "",
+            "details": "(+12 to Sense Motive)",
             "mod": 10,
             "senses": []
         },

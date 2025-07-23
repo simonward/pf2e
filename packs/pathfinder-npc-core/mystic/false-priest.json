@@ -635,6 +635,45 @@
             "type": "melee"
         },
         {
+            "_id": "7yaoCck7JC3aLreY",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Fist",
+            "sort": 1100000,
+            "system": {
+                "attackEffects": {
+                    "value": []
+                },
+                "bonus": {
+                    "value": 12
+                },
+                "damageRolls": {
+                    "t0QNwfRetOfeU0vE": {
+                        "damage": "1d4+8",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": ""
+                },
+                "rules": [],
+                "slug": null,
+                "traits": {
+                    "value": [
+                        "agile",
+                        "finesse",
+                        "nonlethal",
+                        "unarmed"
+                    ]
+                }
+            },
+            "type": "melee"
+        },
+        {
             "_id": "0PlCgdUO4JNfJMKr",
             "flags": {
                 "pf2e": {
@@ -643,7 +682,7 @@
             },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Hand Crossbow",
-            "sort": 1100000,
+            "sort": 1200000,
             "system": {
                 "attackEffects": {
                     "value": []
@@ -680,7 +719,7 @@
             "_id": "Oq7EJED40zeLYJUJ",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Deceiver's Surprise",
-            "sort": 1200000,
+            "sort": 1300000,
             "system": {
                 "actionType": {
                     "value": "passive"
@@ -735,7 +774,7 @@
             "_id": "9UbRDyf3EovxiABp",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Fickle Prophecy",
-            "sort": 1300000,
+            "sort": 1400000,
             "system": {
                 "actionType": {
                     "value": "action"
@@ -745,7 +784,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p>The false priest convinces someone of their omnipotence by attempting a Deception check compared to the creature's Will DC.</p>\n<p>If successful, the target gains [[/r 1d8+4 #Temporary Hit Points]]{1d8+4 temporary Hit Points} that last for 1 hour or until the false priest removes them by rebuking the target, whichever occurs first.</p>"
+                    "value": "<p>The false priest convinces someone of their omnipotence by attempting a @Check[deception|against:will] check compared to the creature's Will DC.</p>\n<p>If successful, the target gains 1d8+4 temporary Hit Points that last for 1 hour or until the false priest removes them by rebuking the target, whichever occurs first.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Effect: Fickle Prophecy]</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -770,7 +809,7 @@
             },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Sneak Attack",
-            "sort": 1400000,
+            "sort": 1500000,
             "system": {
                 "actionType": {
                     "value": "passive"
@@ -790,7 +829,7 @@
                 "rules": [
                     {
                         "key": "RollOption",
-                        "label": "Target is Off-Guard due to a Feint or Deceiver's Surprise",
+                        "label": "PF2E.NPCAbility.FalsePriest.SneakAttack.DeceiversSurprise",
                         "option": "deceivers-surprise",
                         "toggleable": true
                     },
@@ -836,7 +875,7 @@
             "_id": "wYUI9xidJaJLYynz",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "The Jig Is Up",
-            "sort": 1500000,
+            "sort": 1600000,
             "system": {
                 "actionType": {
                     "value": "reaction"

@@ -296,7 +296,11 @@
                         "predicate": [
                             "fated-doom"
                         ],
-                        "selector": "initiative",
+                        "selector": [
+                            "ac",
+                            "attack-roll",
+                            "initiative"
+                        ],
                         "type": "status",
                         "value": 1
                     }

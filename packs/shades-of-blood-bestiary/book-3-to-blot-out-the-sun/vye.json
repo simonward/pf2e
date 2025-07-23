@@ -1259,7 +1259,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>The necromancer emits a scent of putrid rot in a @Template[type:emanation|distance:5]. A living creature that enters or begins its turn in the aura is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>"
+                    "value": "<p>The necromancer emits a scent of putrid rot in a 5-foot emanation. A living creature that enters or begins its turn in the aura is @UUID[Compendium.pf2e.conditionitems.Item.Sickened]{Sickened 1}.</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -1269,6 +1269,7 @@
                 "rules": [
                     {
                         "key": "Aura",
+                        "radius": 5,
                         "slug": "stench-of-decay",
                         "traits": [
                             "occult",

@@ -1,10 +1,10 @@
 {
-    "_id": "1MvAqwGlG2umgOSE",
+    "_id": "3Wtzyb0ZgkaC7vHY",
     "img": "systems/pf2e/icons/spells/hideous-laughter.webp",
-    "name": "Effect: Fanatical Frenzy",
+    "name": "Effect: Fanatical Frenzy (Legacy)",
     "system": {
         "description": {
-            "value": "<p>You gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls, and you take a –2 penalty to AC.</p>"
+            "value": "<p>You gain a +1 status bonus to attack rolls and a +2 status bonus to damage rolls, and you take a –2 status penalty to AC.</p>"
         },
         "duration": {
             "expiry": "turn-start",
@@ -16,9 +16,9 @@
             "value": 1
         },
         "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Pathfinder NPC Core"
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Gamemastery Guide"
         },
         "rules": [
             {
@@ -36,6 +36,7 @@
             {
                 "key": "FlatModifier",
                 "selector": "ac",
+                "type": "status",
                 "value": -2
             }
         ],
