@@ -476,6 +476,11 @@
         },
         {
             "_id": "xuyjTEDoDAmb5acN",
+            "flags": {
+                "pf2e": {
+                    "linkedWeapon": "IGUOzNrIaqQKPR2j"
+                }
+            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Sap",
             "sort": 800000,
@@ -555,6 +560,11 @@
         },
         {
             "_id": "wfNSTwrVHkHF5YLS",
+            "flags": {
+                "pf2e": {
+                    "linkedWeapon": "3tjip0HhguL5l2lw"
+                }
+            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Hand Crossbow",
             "sort": 1000000,
