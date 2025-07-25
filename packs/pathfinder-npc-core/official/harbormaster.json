@@ -475,8 +475,7 @@
                         "predicate": [
                             "action:balance"
                         ],
-                        "selector": "acrobatics",
-                        "type": "skill"
+                        "selector": "acrobatics"
                     },
                     {
                         "key": "Note",

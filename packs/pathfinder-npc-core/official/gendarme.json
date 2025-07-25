@@ -558,11 +558,11 @@
                 "rules": [
                     {
                         "adjustment": {
-                            "success": "to-critical-success"
+                            "success": "one-degree-better"
                         },
                         "key": "AdjustDegreeOfSuccess",
                         "predicate": [
-                            "fear"
+                            "item:trait:fear"
                         ],
                         "selector": "will"
                     }

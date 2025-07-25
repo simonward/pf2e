@@ -367,8 +367,7 @@
                             "success": "one-degree-better"
                         },
                         "key": "AdjustDegreeOfSuccess",
-                        "selector": "acrobatics",
-                        "type": "skill"
+                        "selector": "acrobatics"
                     }
                 ],
                 "slug": null,
