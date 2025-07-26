@@ -4,7 +4,7 @@
     "name": "Effect: Bosun's Command",
     "system": {
         "description": {
-            "value": "<p>You gain the bosun's choice of a +2 status bonus to attack rolls or a +10 status bonus to your Speeds.</p>"
+            "value": "<p>You gain a +2 status bonus to your attack rolls or a +10 status bonus to your Speeds.</p>"
         },
         "duration": {
             "expiry": "turn-end",
@@ -27,7 +27,7 @@
                         "label": "PF2E.AttackLabel",
                         "value": {
                             "modifier": 2,
-                            "selector": "attack"
+                            "selector": "attack-roll"
                         }
                     },
                     {
