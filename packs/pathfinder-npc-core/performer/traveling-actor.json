@@ -204,9 +204,6 @@
         },
         {
             "_id": "k4NbO19e7XHHGiYN",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.5KojtpJA0T5xoum4.Item.4VbQq13CfCCwqfYt"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 400000,
@@ -275,9 +272,6 @@
         },
         {
             "_id": "O0QloD5rVQ3q3Ij3",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.sAurhtXSqv3kPAlJ.Item.esZ7IFO1aPcIn4T5"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Versatile Performance",
             "sort": 600000,

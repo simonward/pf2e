@@ -297,9 +297,6 @@
         },
         {
             "_id": "BKpUsI3mLhP4a5Gb",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.vfFB2za4zaQnXYIa.Item.uUISfTBeVRNhnN9u"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 500000,
@@ -474,9 +471,6 @@
         },
         {
             "_id": "VYqmsfhYCU6ak1bm",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.vfFB2za4zaQnXYIa.Item.BpD2byfrbMItSgfy"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "+2 to Sense Motive",
             "sort": 900000,
@@ -515,9 +509,6 @@
         },
         {
             "_id": "t9t9UyZUzYGkBBPE",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.bzRxQ0Z317yeCUE5.Item.jCd90kV3C9iAbsbt"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Insightful",
             "sort": 1000000,

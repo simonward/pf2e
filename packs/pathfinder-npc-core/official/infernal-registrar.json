@@ -1156,9 +1156,6 @@
         },
         {
             "_id": "oEkSsSVmgszHEwAw",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.HbYwSi428oXESdNh.Item.a6VT956imq0UeyhM"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 1600000,
@@ -1197,9 +1194,6 @@
         },
         {
             "_id": "IXlVRslfRZm87uS1",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.vfFB2za4zaQnXYIa.Item.BpD2byfrbMItSgfy"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "+14 to Sense Motive",
             "sort": 1700000,

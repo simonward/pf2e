@@ -240,9 +240,6 @@
         },
         {
             "_id": "HloTdHxZG5TbObFy",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.5KojtpJA0T5xoum4.Item.4VbQq13CfCCwqfYt"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 500000,

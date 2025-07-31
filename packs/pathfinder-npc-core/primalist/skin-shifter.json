@@ -624,9 +624,6 @@
         },
         {
             "_id": "TdUNc8KZZyIhdF7G",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.mkyMSRTbDV4lho2o.Item.0rfQ5Yx0cKAEXQY3"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Animal Empathy",
             "sort": 1000000,

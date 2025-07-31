@@ -207,9 +207,6 @@
         },
         {
             "_id": "Lv5OmE8UqKiBaK5E",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.HbYwSi428oXESdNh.Item.a6VT956imq0UeyhM"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 400000,
@@ -254,9 +251,6 @@
         },
         {
             "_id": "rDeSnWJM8Lgkk68J",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.Aktz95gNNzfAiTzk.Item.hHccWzh003xSa6dA"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "+3 to Sense Motive, Seek, or Search",
             "sort": 500000,

@@ -385,9 +385,6 @@
         },
         {
             "_id": "HbPG05leJ9JyznH4",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.HbYwSi428oXESdNh.Item.yEZ44jBbnhupHGkC"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Legal Specialist",
             "sort": 900000,

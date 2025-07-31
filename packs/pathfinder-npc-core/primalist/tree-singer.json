@@ -1940,9 +1940,6 @@
         },
         {
             "_id": "8eT7cbXBZrGkiSxB",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.J0JoIeg82JCQj3Fm.Item.EIzZYTvfiATvqZva"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 2900000,
@@ -2035,9 +2032,6 @@
         },
         {
             "_id": "lhrQmHXGnYHvX41r",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.J0JoIeg82JCQj3Fm.Item.uDh7N3sxYKJqYT14"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Plant Empathy",
             "sort": 3100000,

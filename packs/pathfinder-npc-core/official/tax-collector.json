@@ -527,9 +527,6 @@
         },
         {
             "_id": "sthYVbmH4op0ElvT",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.HbYwSi428oXESdNh.Item.a6VT956imq0UeyhM"
-            },
             "img": "systems/pf2e/icons/default-icons/melee.svg",
             "name": "Fist",
             "sort": 900000,
@@ -649,9 +646,6 @@
         },
         {
             "_id": "OhTHPtpvCHZm2OAt",
-            "_stats": {
-                "compendiumSource": "Compendium.pf2e.pathfinder-npc-core.Actor.HbYwSi428oXESdNh.Item.yEZ44jBbnhupHGkC"
-            },
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Financial Specialist",
             "sort": 1200000,
