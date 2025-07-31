@@ -271,7 +271,7 @@
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.equipment-srd.Item.G5WuYX1ghrZcJ1J1"
             },
-            "img": "systems/pf2e/icons/equipment/treasure/art-objects/minor-art-object/illustrated-book.webp",
+            "img": "icons/sundries/books/book-backed-blue-gold.webp",
             "name": "Ledger",
             "sort": 500000,
             "system": {
@@ -459,7 +459,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>Whenever the harbormaster rolls a success on a check to @UUID[Compendium.pf2e.actionspf2e.Item.Balance], they get a critical success instead. They're not @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] while Balancing on narrow surfaces and uneven ground.</p>"
+                    "value": "<p>Whenever the harbormaster rolls a success on a check to [[/act balance]], they get a critical success instead. They're not @UUID[Compendium.pf2e.conditionitems.Item.Off-Guard] while Balancing on narrow surfaces and uneven ground.</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -476,15 +476,6 @@
                             "action:balance"
                         ],
                         "selector": "acrobatics"
-                    },
-                    {
-                        "key": "Note",
-                        "predicate": [
-                            "action:balance"
-                        ],
-                        "selector": "acrobatics",
-                        "text": "Whenever the harbormaster rolls a success on a a check to @UUID[Compendium.pf2e.actionspf2e.Item.Balance], they get a critical success instead.",
-                        "title": "{item|name}"
                     }
                 ],
                 "slug": null,
@@ -620,7 +611,7 @@
         "details": {
             "blurb": "",
             "languages": {
-                "details": "",
+                "details": "up to 2 additional languages",
                 "value": [
                     "common"
                 ]

@@ -357,12 +357,6 @@
                 },
                 "rules": [
                     {
-                        "key": "Note",
-                        "selector": "acrobatics",
-                        "text": "When the acrobat rolls a success on an Acrobatics check, they get a critical success instead.",
-                        "title": "{item|name}"
-                    },
-                    {
                         "adjustment": {
                             "success": "one-degree-better"
                         },

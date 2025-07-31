@@ -1,10 +1,10 @@
 {
-    "_id": "OxOMYmlPtjsEkRtY",
-    "img": "systems/pf2e/icons/spells/anima-invocation.webp",
-    "name": "Effect: Aura of Command",
+    "_id": "Df5j0AitqDVE08hL",
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "name": "Effect: Air of Authority",
     "system": {
         "description": {
-            "value": "<p>You gain a +1 status bonus to your attack rolls and a +2 status bonus to your Will saves.</p>"
+            "value": "<p>You take a –2 status penalty to your Will DC against the origin's attempts to Coerce or Demoralize you.</p>"
         },
         "duration": {
             "expiry": null,
@@ -12,8 +12,9 @@
             "unit": "unlimited",
             "value": -1
         },
+        "fromSpell": false,
         "level": {
-            "value": 6
+            "value": 3
         },
         "publication": {
             "license": "ORC",
@@ -23,15 +24,18 @@
         "rules": [
             {
                 "key": "FlatModifier",
-                "selector": "attack",
+                "predicate": [
+                    "origin:signature:{item|origin.signature}",
+                    {
+                        "or": [
+                            "action:coerce",
+                            "action:demoralize"
+                        ]
+                    }
+                ],
+                "selector": "will-dc",
                 "type": "status",
-                "value": 1
-            },
-            {
-                "key": "FlatModifier",
-                "selector": "will",
-                "type": "status",
-                "value": 2
+                "value": -2
             }
         ],
         "start": {
@@ -42,7 +46,6 @@
             "show": true
         },
         "traits": {
-            "rarity": "common",
             "value": []
         }
     },

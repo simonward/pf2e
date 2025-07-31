@@ -692,7 +692,7 @@
                 },
                 "category": "defensive",
                 "description": {
-                    "value": "<p>10 feet. Creatures in the aura who are the same or lower level than the watch officer take a -2 status penalty to their Will DC against the watch officer's attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Coerce] or @UUID[Compendium.pf2e.actionspf2e.Item.Demoralize] them.</p>"
+                    "value": "<p>10 feet. Creatures in the aura who are the same or lower level than the watch officer take a -2 status penalty to their Will DC against the watch officer's attempts to [[/act coerce]] or [[/act demoralize]] them.</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -701,6 +701,21 @@
                 },
                 "rules": [
                     {
+                        "effects": [
+                            {
+                                "affects": "all",
+                                "includesSelf": false,
+                                "predicate": [
+                                    {
+                                        "gte": [
+                                            "self:level",
+                                            "target:level"
+                                        ]
+                                    }
+                                ],
+                                "uuid": "Compendium.pf2e.bestiary-effects.Item.Effect: Air of Authority"
+                            }
+                        ],
                         "key": "Aura",
                         "radius": 10,
                         "slug": "air-of-authority",
@@ -950,7 +965,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "(+9 to sense motive)",
+            "details": "(+9 to Sense Motive)",
             "mod": 8,
             "senses": []
         },

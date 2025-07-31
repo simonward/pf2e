@@ -795,7 +795,7 @@
                 },
                 "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Requirements</strong> The captain of the guard has their shield raised</p><hr /><p><strong>Effect</strong> The captain of the guard presses forward, using their shield to push back foes. The captain Strides and Shoves, in either order. The multiple attack penalty doesn't apply to this @UUID[Compendium.pf2e.actionspf2e.Item.Shove], though the Shove does count toward the captain's multiple attack penalty.</p>"
+                    "value": "<p><strong>Requirements</strong> The captain of the guard has their shield raised</p><hr /><p><strong>Effect</strong> The captain of the guard presses forward, using their shield to push back foes. The captain Strides and [[/act shove]]{Shoves}, in either order. The multiple attack penalty doesn't apply to this Shove, though the Shove does count toward the captain's multiple attack penalty.</p>"
                 },
                 "publication": {
                     "license": "ORC",

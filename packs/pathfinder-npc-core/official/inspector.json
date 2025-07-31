@@ -338,7 +338,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>The inspector can @UUID[Compendium.pf2e.actionspf2e.Item.Sense Motive] on a corpse, learning about the creature in the moments before its death.</p>"
+                    "value": "<p>The inspector can [[/act sense-motive]] on a corpse, learning about the creature in the moments before its death.</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -496,7 +496,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "+15 to Sense Motive, Seek, or Search",
+            "details": "(+15 to Sense Motive, Seek, or Search)",
             "mod": 12,
             "senses": []
         },
