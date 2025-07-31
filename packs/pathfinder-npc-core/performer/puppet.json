@@ -20,8 +20,8 @@
                     "value": "<ul><li><strong>Smart Puppet</strong> The smart puppet is covered in runes that give it occult power. It makes a ranged Strike against a creature within 30 feet at a +15 attack modifier. A successful Strike deals 2d6 mental damage.</li><li><strong>Strong Puppet</strong> The strong puppet wields a tiny sword and shield. It makes a melee Strike against a creature whose space it shares at a +15 attack modifier. A successful Strike deals 2d8 slashing damage. In addition, the strong puppet gains a +1 circumstance bonus to AC for 1 round.</li><li><strong>Swift Puppet</strong> The swift puppet wields two tiny daggers. It makes a melee Strike against a creature whose space it shares at a +15 attack modifier. A successful Strike deals 2d4 piercing damage. If the swift puppet hits a creature that was hit by another puppet this round, its Strike deals an additional 1d4 precision damage.</li></ul><hr /><ul><li><strong>Fiend Puppet</strong> The puppet makes a ranged Strike against a creature within 30 feet for 1d10 spirit damage, plus 1d4 spirit damage if the target is holy.</li><li><strong>Poisoner Puppet</strong> The puppet makes a melee Strike with a tiny syringe of poison against a creature whose space it shares, dealing 1d4 piercing damage plus 1d6 persistent poison damage.</li><li><strong>Undead Puppet</strong> The puppet makes a melee Strike against a creature whose space it shares, dealing 2d8 void damage and making the target @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.Frightened]{Frightened 2} on a critical hit).</li></ul>"
                 },
                 "publication": {
-                    "license": "OGL",
-                    "remaster": false,
+                    "license": "ORC",
+                    "remaster": true,
                     "title": ""
                 },
                 "rules": [
@@ -339,9 +339,9 @@
             "privateNotes": "",
             "publicNotes": "",
             "publication": {
-                "license": "OGL",
-                "remaster": false,
-                "title": ""
+                "license": "ORC",
+                "remaster": true,
+                "title": "Pathfinder NPC Core"
             }
         },
         "initiative": {
