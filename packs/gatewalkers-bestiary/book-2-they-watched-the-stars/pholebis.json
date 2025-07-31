@@ -1706,7 +1706,7 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>The naiad can use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.Make an Impression] on and make very simple @UUID[Compendium.pf2e.actionspf2e.Item.Request]{Requests} of animals.</p>"
+                    "value": "<p>The naiad can use Diplomacy to [[/act make-an-impression]] on and make very simple [[/act request]]{Requests} of animals.</p>"
                 },
                 "publication": {
                     "license": "OGL",
