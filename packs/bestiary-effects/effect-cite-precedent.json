@@ -26,6 +26,7 @@
                 "predicate": [
                     "action:legal-argument"
                 ],
+                "removeAfterRoll": "if-enabled",
                 "selector": "diplomacy",
                 "type": "circumstance",
                 "value": -2
