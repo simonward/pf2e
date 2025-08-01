@@ -75,7 +75,7 @@
                             }
                         },
                         "key": "Strike",
-                        "label": "PF2E.NPCAbility.Puppet.Smart.StrikeLabel",
+                        "label": "PF2E.GenericLabel.Strike.Ranged",
                         "predicate": [
                             "puppet-type:smart"
                         ],
@@ -180,7 +180,7 @@
                             }
                         },
                         "key": "Strike",
-                        "label": "PF2E.NPCAbility.Puppet.Fiend.StrikeLabel",
+                        "label": "PF2E.GenericLabel.Strike.Ranged",
                         "predicate": [
                             "puppet-type:fiend"
                         ],
@@ -242,7 +242,7 @@
                             }
                         },
                         "key": "Strike",
-                        "label": "PF2E.NPCAbility.Puppet.Undead.StrikeLabel",
+                        "label": "PF2E.GenericLabel.Strike.Melee",
                         "predicate": [
                             "puppet-type:undead"
                         ],
@@ -337,7 +337,7 @@
                 "value": 0
             },
             "privateNotes": "",
-            "publicNotes": "",
+            "publicNotes": "<p>On the surface, puppeteers are simply providers of entertainment to the masses. With their little puppets and simple stories, their pantomimes are fun for the whole family. However, some puppeteers have a secret. They can animate their puppets with magic, sending them out to cause all manner of mischief in the dead of night. Puppeteers of this ilk tend to travel by themselves, though they might be found as part of a traveling group if they become lonely. They may serve as an innocent front for more illicit dealings or as lackeys to a larger group of thieves and ne'er do wells.</p><hr /><p>Performances come in a wide variety of forms, from musical methods like singing and instruments to physical dancing and juggling to simple orating and conversing.</p>",
             "publication": {
                 "license": "ORC",
                 "remaster": true,

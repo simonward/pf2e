@@ -705,6 +705,10 @@
             "Resist": {
                 "ForcedMovement": "vs. forced movement"
             },
+            "Strike": {
+                "Melee": "Melee Strike",
+                "Ranged": "Ranged Strike"
+            },
             "StrikeCount": {
                 "First": "First Strike",
                 "Second": "Second Strike"
@@ -1239,16 +1243,14 @@
             },
             "Puppet": {
                 "Fiend": {
-                    "Label": "Fiend",
-                    "StrikeLabel": "Ranged Strike"
+                    "Label": "Fiend"
                 },
                 "Poisoner": {
                     "Label": "Poisoner",
                     "StrikeLabel": "Tiny Syringe"
                 },
                 "Smart": {
-                    "Label": "Smart",
-                    "StrikeLabel": "Ranged Strike"
+                    "Label": "Smart"
                 },
                 "Strong": {
                     "Label": "Strong",
@@ -1265,8 +1267,7 @@
                     "Note": {
                         "CriticalSuccess": "On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.",
                         "Success": "On a hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
-                    },
-                    "StrikeLabel": "Melee Strike"
+                    }
                 }
             },
             "Pyrkaion": {
