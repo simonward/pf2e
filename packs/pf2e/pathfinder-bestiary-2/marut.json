@@ -27,6 +27,9 @@
                     "title": ""
                 },
                 "rules": [],
+                "showSlotlessLevels": {
+                    "value": false
+                },
                 "slots": {},
                 "slug": null,
                 "spelldc": {
@@ -36,7 +39,8 @@
                 },
                 "tradition": {
                     "value": "divine"
-                }
+                },
+                "traits": {}
             },
             "type": "spellcastingEntry"
         },
@@ -522,10 +526,11 @@
             "type": "spell"
         },
         {
-            "_id": "Lo2xgLLoFvLxoZTX",
+            "_id": "adQ6eK4he696mVB0",
             "_stats": {
                 "compendiumSource": "Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo"
             },
+            "folder": "zDlxATrLAlbYA2Mv",
             "img": "systems/pf2e/icons/spells/wall-of-force.webp",
             "name": "Wall of Force",
             "sort": 900000,
@@ -551,6 +556,7 @@
                     "value": 6
                 },
                 "location": {
+                    "heightenedLevel": 7,
                     "value": "LfTrwLmDBA7f2MCm"
                 },
                 "publication": {
